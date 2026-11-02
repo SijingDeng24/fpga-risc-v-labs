@@ -28,13 +28,13 @@ FSM design (Lab 6)
 
 | # | Lab | What I built | Report |
 |---|-----|--------------|--------|
-| 1 | Binary Adders | Half adder and full adder from logic gates; verified with simulation waveforms and on-board switches/LEDs | [PDF](reports/Lab01_Binary_Adders_Quartus_Intro.pdf) |
-| 2 | 4-bit Adder/Subtractor | Ripple-carry adder/subtractor using two's complement, with signed and unsigned overflow detection derived from K-maps | [PDF](reports/Lab02_4bit_Adder_Subtractor.pdf) |
-| 3 | 7-Segment Display Control | BCD-to-7-segment decoder minimized with seven K-maps, extended with enable and negative-sign logic to drive two active-low displays | [PDF](reports/Lab03_7_Segment_Display_Control.pdf) |
-| 4 | Arithmetic Logic Unit | 4-bit ALU (ADD, SUB, AND, OR) with a binary-to-BCD converter showing signed results in decimal on the 7-segment displays | [PDF](reports/Lab04_Arithmetic_Logic_Unit_ALU.pdf) |
-| 5 | Digital Counters | Counter system driven by the 50 MHz board clock with start/stop, asynchronous load, and up/down counting | [PDF](reports/Lab05_Digital_Counters_Design.pdf) |
-| 6 | Railroad Crossing FSM | Finite state machine for a railroad crossing signal using two track sensors; reduced from five states to four by merging equivalent states, saving a flip-flop | [PDF](reports/Lab06_Railroad_Crossing_FSM.pdf) |
-| 7 | RISC-V Single-Cycle Processor | Compact RISC-V CPU executing R-type ADD, SUB, AND, and OR instructions, combining my Lab 4 ALU, a Verilog register file and instruction memory, a program counter, and a control unit | [PDF](reports/Lab07_RISC-V_Single_Cycle_Processor.pdf) |
+| 1 | Binary Adders | Half adder and full adder from logic gates; verified with simulation waveforms and on-board switches/LEDs | [PDF](FPGA_Lab_Report_Files/Lab01_Binary_Adders_Quartus_Intro.pdf) |
+| 2 | 4-bit Adder/Subtractor | Ripple-carry adder/subtractor using two's complement, with signed and unsigned overflow detection derived from K-maps | [PDF](FPGA_Lab_Report_Files/Lab02_4bit_Adder_Subtractor.pdf) |
+| 3 | 7-Segment Display Control | BCD-to-7-segment decoder minimized with seven K-maps, extended with enable and negative-sign logic to drive two active-low displays | [PDF](FPGA_Lab_Report_Files/Lab03_7_Segment_Display_Control.pdf) |
+| 4 | Arithmetic Logic Unit | 4-bit ALU (ADD, SUB, AND, OR) with a binary-to-BCD converter showing signed results in decimal on the 7-segment displays | [PDF](FPGA_Lab_Report_Files/Lab04_Arithmetic_Logic_Unit_ALU.pdf) |
+| 5 | Digital Counters | Counter system driven by the 50 MHz board clock with start/stop, asynchronous load, and up/down counting | [PDF](FPGA_Lab_Report_Files/Lab05_Digital_Counters_Design.pdf) |
+| 6 | Railroad Crossing FSM | Finite state machine for a railroad crossing signal using two track sensors; reduced from five states to four by merging equivalent states, saving a flip-flop | [PDF](FPGA_Lab_Report_Files/Lab06_Railroad_Crossing_FSM.pdf) |
+| 7 | RISC-V Single-Cycle Processor | Compact RISC-V CPU executing R-type ADD, SUB, AND, and OR instructions, combining my Lab 4 ALU, a Verilog register file and instruction memory, a program counter, and a control unit | [PDF](FPGA_Lab_Report_Files/Lab07_RISC-V_Single_Cycle_Processor.pdf) |
 
 ## Highlight: Compact RISC-V Processor (Lab 7)
 
@@ -61,7 +61,7 @@ Two sensors (east and west) detect a one-way train, and a signal light stays on 
 ```
 ├── README.md
 ├── images/        # schematics, state diagram, datapath, demo photos
-└── reports/       # full lab reports (PDF)
+└── FPGA_Lab_Report_Files/   # full lab reports (PDF)
 ```
 
 ## Author
